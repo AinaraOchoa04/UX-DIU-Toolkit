@@ -33,36 +33,38 @@ angular.module("angular", [])
                 
                 
 				Id: 0,
-				Name: "Pedro",
-				Photo: "man.png",
-				Quote: "Carpe Diem",
-				Age: 32,
-				Occupation: "Comercial en empresa de automocion",
-				Family: "Con pareja desde hace 1 año",
-				Location: "Granada (Huetor Vega)",
-				Character: "Le gusta disfrutar del tiempo",
+				Name: "Jonathan",
+				Photo: "jonathan.png",
+				Quote: "Si te rallas lo mejor es no rallarte.",
+				Age: 25,
+				Occupation: "Técnico Informático Ayuntamiendo de Armilla",
+				Family: "Soltero",
+				Location: "Granada (Guarchos)",
+				Character: "Le gusta el deporte",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 4 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 1 },
-					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 5 }
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 3 },
+					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 2 },
+					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 2 },
+					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 1 }
 				], 
-				Goals: ["Disfrutar del tiempo libre, viajar", "Cambiar a un trabajo más estable"],
-				Frustrations: ["le gusta la tecnología, pero siempre 'llama a un amigo' para resolver problemas", "Le gustaría tener más tiempo libre y leer más"],
-				Bio: "Es de Modril y vino a Granada para estudiar administración de empresas, pero no ha tenido grandes oportunidades de trabajo. LLeva 2 años contratado en la empresa actual. Aqui ha hecho buenos amigo en el trabajo y normalmente ser reunen para fiestas y a veces organizan viajes",
+				Goals: ["Mantener la tranquilidad y evitar complicaciones o estrés inutil",
+        "Disfrutar de su tiempo libre practicando deporte y saliendo con amigos"],
+				Frustrations: ["Las situaciones de estrés excesivo o cuando la gente se 'raya' por cosas sencillas",
+        "Falta de tiempo para compaginar el trabajo en el ayuntamiento con sus aficiones deportivas"],
+				Bio: "Jonathan tiene 25 años y es natural de Gualchos. Actualmente reside en Granada y trabaja como Técnico Informático en el Ayuntamiento de Armilla, un puesto que le aporta estabilidad laboral. Se considera una persona tranquila, pragmática y con una filosofía de vida relajada. En su día a día le gusta mantenerse activo y practicar deporte.",
 				Tech: [
-					{ Name: "TIC/Internet", Value: 2 },
-					{ Name: "Movil", Value: 2 },
+					{ Name: "TIC/Internet", Value: 5 },
+					{ Name: "Movil", Value: 4 },
 					{ Name: "RRSS", Value: 3 },
-					{ Name: "Software", Value: 2 }
+					{ Name: "Software", Value: 5 }
 					
 				], 
-                Contextos: "LLeva un tiempo preocupado y quiere desconectar Le gustaría dar una sorpresa a sus amigos para las vacaciones",  
+                Contextos: "Busca mantener un equilibrio entre su trabajo técnico y sus momentos de desconexión, priorizando el deporte y planes tranquilos sin complicaciones.",  
 				PreferredChannels: [
-					{ Name: "Publicidad Tradicional", Value: 5 },
-					{ Name: "Online & Social Media", Value: 3 },
-					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 1 }
+					{ Name: "Publicidad Tradicional", Value: 1 },
+					{ Name: "Online & Social Media", Value: 4 },
+					{ Name: "Recomendaciones & sugerencias", Value: 3 },
+					{ Name: "Persona confianza (amigos, boca a boca)", Value: 5 }
 				]
 			},
 			{	
